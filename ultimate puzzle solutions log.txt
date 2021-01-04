@@ -1,0 +1,816 @@
+---------------------------------------
+|   CI   |   AI   |   BO   |   BO   |
+| AI  CO | CI  AO | AI  BO | BI  CO |
+|   CO   |   BO   |   PI   |   AI   |
+---------------------------------------
+|   CI   |   BI   |   PO   |   AO   |
+| CO  BI | BO  AI | AO  CI | CO  AI |
+|   PO   |   PO   |   AI   |   CI   |
+---------------------------------------
+|   PI   |   PI   |   AO   |   CO   |
+| BO  CI | CO  CI | CO  PI | PO  CI |
+|   BO   |   BO   |   CI   |   PI   |
+---------------------------------------
+|   BI   |   BI   |   CO   |   PO   |
+| AO  CI | CO  PI | PO  AI | AO  BI |
+|   AO   |   BO   |   AI   |   PI   |
+---------------------------------------
+---------------------------------------
+|   AI   |   CI   |   CI   |   PI   |
+| CO  CI | CO  BI | BO  AI | AO  CI |
+|   CO   |   PO   |   AO   |   CO   |
+---------------------------------------
+|   CI   |   PI   |   AI   |   CI   |
+| PI  BO | BI  BO | BI  PO | PI  BO |
+|   BO   |   CO   |   BO   |   CO   |
+---------------------------------------
+|   BI   |   CI   |   BI   |   CI   |
+| AO  CI | CO  PI | PO  PI | PO  AI |
+|   AO   |   PO   |   AO   |   AO   |
+---------------------------------------
+|   AI   |   PI   |   AI   |   AI   |
+| CO  BI | BO  AI | AO  CI | CO  AI |
+|   BO   |   BO   |   CO   |   PO   |
+---------------------------------------
+---------------------------------------
+|   AI   |   CI   |   CI   |   PI   |
+| CO  CI | CO  BI | BO  AI | AO  CI |
+|   CO   |   PO   |   AO   |   CO   |
+---------------------------------------
+|   CI   |   PI   |   AI   |   CI   |
+| PI  BO | BI  BO | BI  PO | PI  BO |
+|   BO   |   CO   |   BO   |   CO   |
+---------------------------------------
+|   BI   |   CI   |   BI   |   CI   |
+| PO  PI | PO  AI | AO  CI | CO  PI |
+|   AO   |   AO   |   AO   |   PO   |
+---------------------------------------
+|   AI   |   AI   |   AI   |   PI   |
+| CO  AI | AO  CI | CO  BI | BO  AI |
+|   PO   |   CO   |   BO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   CO   |   AO   |   BO   |   BI   |
+| CI  AO | AI  BO | BI  CO | CI  PO |
+|   PI   |   CI   |   AI   |   CO   |
+---------------------------------------
+|   PO   |   CO   |   AO   |   CI   |
+| PI  CO | CI  AO | AI  PO | PI  BO |
+|   CI   |   AI   |   CI   |   BO   |
+---------------------------------------
+|   CO   |   AO   |   CO   |   BI   |
+| CO  AI | AO  BI | BO  BI | BO  AI |
+|   CI   |   CI   |   PI   |   PO   |
+---------------------------------------
+|   CO   |   CO   |   PO   |   PI   |
+| BO  PI | PO  AI | AO  BI | BO  AI |
+|   CI   |   AI   |   PI   |   BO   |
+---------------------------------------
+---------------------------------------
+|   CO   |   AO   |   BO   |   PI   |
+| CI  AO | AI  BO | BI  CO | CI  PO |
+|   PI   |   CI   |   AI   |   CO   |
+---------------------------------------
+|   PO   |   CO   |   AO   |   CI   |
+| BI  CO | CI  AO | AI  PO | PI  BO |
+|   CI   |   AI   |   CI   |   BO   |
+---------------------------------------
+|   CO   |   AO   |   CO   |   BI   |
+| CO  AI | AO  BI | BO  BI | BO  AI |
+|   CI   |   CI   |   PI   |   PO   |
+---------------------------------------
+|   CO   |   CO   |   PO   |   PI   |
+| BO  PI | PO  AI | AO  BI | BO  AI |
+|   CI   |   AI   |   PI   |   BO   |
+---------------------------------------
+---------------------------------------
+|   CI   |   AI   |   AI   |   AI   |
+| PI  CO | CI  AO | AI  PO | PI  BO |
+|   AO   |   BO   |   CO   |   BO   |
+---------------------------------------
+|   AI   |   BI   |   CI   |   BI   |
+| CO  CI | CO  PI | PO  AI | AO  CI |
+|   CO   |   BO   |   AO   |   AO   |
+---------------------------------------
+|   CI   |   BI   |   AI   |   AI   |
+| CO  BI | BO  AI | AO  CI | CO  BI |
+|   PO   |   PO   |   CO   |   BO   |
+---------------------------------------
+|   PI   |   PI   |   CI   |   BI   |
+| BO  CI | CO  CI | CO  PI | PO  PI |
+|   BO   |   BO   |   PO   |   AO   |
+---------------------------------------
+---------------------------------------
+|   CI   |   BO   |   AI   |   AI   |
+| PI  CO | CI  CO | CI  AO | AI  PO |
+|   AO   |   PI   |   PO   |   CO   |
+---------------------------------------
+|   AI   |   PO   |   PI   |   CI   |
+| CI  AO | AI  BO | BI  AO | AI  CO |
+|   BO   |   BI   |   PO   |   AO   |
+---------------------------------------
+|   BI   |   BO   |   PI   |   AI   |
+| CI  PO | PI  CO | CI  PO | PI  BO |
+|   CO   |   BI   |   CO   |   BO   |
+---------------------------------------
+|   CI   |   BO   |   CI   |   BI   |
+| AI  CO | CI  BO | BI  AO | AI  BO |
+|   CO   |   PI   |   AO   |   CO   |
+---------------------------------------
+---------------------------------------
+|   CI   |   BO   |   PI   |   AI   |
+| PI  CO | CI  CO | CI  PO | PI  BO |
+|   AO   |   PI   |   CO   |   BO   |
+---------------------------------------
+|   AI   |   PO   |   CI   |   BI   |
+| CI  AO | AI  BO | BI  AO | AI  BO |
+|   BO   |   BI   |   AO   |   CO   |
+---------------------------------------
+|   BI   |   BO   |   AI   |   CI   |
+| CI  PO | PI  CO | CI  AO | AI  CO |
+|   CO   |   BI   |   PO   |   AO   |
+---------------------------------------
+|   CI   |   BO   |   PI   |   AI   |
+| AI  CO | CI  BO | BI  AO | AI  PO |
+|   CO   |   PI   |   PO   |   CO   |
+---------------------------------------
+---------------------------------------
+|   AO   |   CO   |   AI   |   CO   |
+| CO  PI | PO  CI | CO  BI | BO  PI |
+|   CI   |   BI   |   BO   |   CI   |
+---------------------------------------
+|   CO   |   BO   |   BI   |   CO   |
+| BO  BI | BO  PI | PO  PI | PO  CI |
+|   PI   |   CI   |   AO   |   PI   |
+---------------------------------------
+|   PO   |   CO   |   AI   |   PO   |
+| AI  CO | CI  CO | CI  AO | AI  BO |
+|   AI   |   AI   |   PO   |   BI   |
+---------------------------------------
+|   AO   |   AO   |   PI   |   BO   |
+| CO  AI | AO  BI | BO  AI | AO  CI |
+|   CI   |   CI   |   BO   |   AI   |
+---------------------------------------
+---------------------------------------
+|   CO   |   AI   |   BO   |   CO   |
+| CI  AO | AI  PO | PI  CO | CI  AO |
+|   AI   |   CO   |   BI   |   PI   |
+---------------------------------------
+|   AO   |   CI   |   BO   |   PO   |
+| CI  AO | AI  CO | CI  BO | BI  CO |
+|   BI   |   CO   |   PI   |   CI   |
+---------------------------------------
+|   BO   |   CI   |   PO   |   CO   |
+| BO  PI | PO  AI | AO  BI | BO  AI |
+|   AI   |   AO   |   PI   |   BI   |
+---------------------------------------
+|   AO   |   AI   |   PO   |   BO   |
+| AI  BO | BI  PO | PI  CO | CI  CO |
+|   CI   |   BO   |   CI   |   PI   |
+---------------------------------------
+---------------------------------------
+|   CI   |   CO   |   AI   |   CI   |
+| AI  CO | CI  AO | AI  PO | PI  BO |
+|   AO   |   PI   |   CO   |   BO   |
+---------------------------------------
+|   AI   |   PO   |   CI   |   BI   |
+| CI  AO | AI  BO | BI  AO | AI  BO |
+|   PO   |   BI   |   AO   |   CO   |
+---------------------------------------
+|   PI   |   BO   |   AI   |   CI   |
+| BO  AI | AO  CI | CO  CI | CO  PI |
+|   BO   |   AI   |   CO   |   PO   |
+---------------------------------------
+|   BI   |   AO   |   CI   |   PI   |
+| CI  PO | PI  PO | PI  BO | BI  BO |
+|   CO   |   BI   |   CO   |   CO   |
+---------------------------------------
+---------------------------------------
+|   CI   |   PI   |   AO   |   AI   |
+| AI  CO | CI  PO | PI  PO | PI  BO |
+|   AO   |   CO   |   BI   |   BO   |
+---------------------------------------
+|   AI   |   CI   |   BO   |   BI   |
+| AI  PO | PI  CO | CI  CO | CI  PO |
+|   CO   |   AO   |   PI   |   CO   |
+---------------------------------------
+|   CI   |   AI   |   PO   |   CI   |
+| AI  CO | CI  AO | AI  BO | BI  AO |
+|   CO   |   PO   |   BI   |   AO   |
+---------------------------------------
+|   CI   |   PI   |   BO   |   AI   |
+| PI  BO | BI  BO | BI  CO | CI  AO |
+|   BO   |   CO   |   AI   |   BO   |
+---------------------------------------
+---------------------------------------
+|   AO   |   AI   |   CI   |   PI   |
+| AI  BO | BI  PO | PI  BO | BI  AO |
+|   CI   |   BO   |   CO   |   PO   |
+---------------------------------------
+|   CO   |   BI   |   CI   |   PI   |
+| CI  CO | CI  PO | PI  BO | BI  BO |
+|   AI   |   CO   |   BO   |   CO   |
+---------------------------------------
+|   AO   |   CI   |   BI   |   CI   |
+| CO  PI | PO  AI | AO  CI | CO  PI |
+|   CI   |   AO   |   AO   |   PO   |
+---------------------------------------
+|   CO   |   AI   |   AI   |   PI   |
+| PO  AI | AO  CI | CO  BI | BO  AI |
+|   AI   |   CO   |   BO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   AI   |   BO   |   CI   |   CI   |
+| CI  AO | AI  BO | BI  AO | AI  CO |
+|   BO   |   PI   |   AO   |   AO   |
+---------------------------------------
+|   BI   |   PO   |   AI   |   AI   |
+| BO  AI | AO  CI | CO  CI | CO  AI |
+|   PO   |   AI   |   CO   |   PO   |
+---------------------------------------
+|   PI   |   AO   |   CI   |   PI   |
+| CI  PO | PI  PO | PI  BO | BI  BO |
+|   CO   |   BI   |   BO   |   CO   |
+---------------------------------------
+|   CI   |   BO   |   BI   |   CI   |
+| PI  BO | BI  CO | CI  PO | PI  CO |
+|   CO   |   AI   |   CO   |   AO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   AI   |   CO   |   BO   |
+| AO  CI | CO  BI | BO  BI | BO  PI |
+|   AI   |   BO   |   PI   |   CI   |
+---------------------------------------
+|   AO   |   BI   |   PO   |   CO   |
+| AO  BI | BO  AI | AO  CI | CO  AI |
+|   CI   |   PO   |   AI   |   CI   |
+---------------------------------------
+|   CO   |   PI   |   AO   |   CO   |
+| PO  CI | CO  CI | CO  PI | PO  AI |
+|   BI   |   BO   |   CI   |   AI   |
+---------------------------------------
+|   BO   |   BI   |   CO   |   AO   |
+| BO  PI | PO  PI | PO  CI | CO  AI |
+|   AI   |   AO   |   PI   |   CI   |
+---------------------------------------
+---------------------------------------
+|   AO   |   BO   |   CO   |   AI   |
+| AO  BI | BO  PI | PO  CI | CO  CI |
+|   CI   |   CI   |   BI   |   CO   |
+---------------------------------------
+|   CO   |   CO   |   BO   |   CI   |
+| BO  BI | BO  PI | PO  BI | BO  AI |
+|   PI   |   CI   |   AI   |   AO   |
+---------------------------------------
+|   PO   |   CO   |   AO   |   AI   |
+| AI  CO | CI  AO | AI  PO | PI  BO |
+|   AI   |   PI   |   CI   |   BO   |
+---------------------------------------
+|   AO   |   PO   |   CO   |   BI   |
+| PI  PO | PI  CO | CI  AO | AI  BO |
+|   BI   |   CI   |   AI   |   CO   |
+---------------------------------------
+---------------------------------------
+|   AO   |   BO   |   PI   |   AI   |
+| PI  PO | PI  CO | CI  PO | PI  BO |
+|   BI   |   BI   |   CO   |   BO   |
+---------------------------------------
+|   BO   |   BO   |   CI   |   BI   |
+| CI  CO | CI  BO | BI  AO | AI  BO |
+|   PI   |   PI   |   AO   |   CO   |
+---------------------------------------
+|   PO   |   PO   |   AI   |   CI   |
+| AI  BO | BI  CO | CI  AO | AI  CO |
+|   BI   |   CI   |   PO   |   AO   |
+---------------------------------------
+|   BO   |   CO   |   PI   |   AI   |
+| AO  CI | CO  AI | AO  CI | CO  AI |
+|   AI   |   CI   |   CO   |   PO   |
+---------------------------------------
+---------------------------------------
+|   AO   |   PO   |   BO   |   BO   |
+| PI  PO | PI  CO | CI  CO | CI  BO |
+|   BI   |   CI   |   PI   |   PI   |
+---------------------------------------
+|   BO   |   CO   |   PO   |   PO   |
+| BI  CO | CI  AO | AI  BO | BI  CO |
+|   AI   |   AI   |   BI   |   CI   |
+---------------------------------------
+|   AO   |   AO   |   BO   |   CO   |
+| CI  AO | AI  PO | PI  CO | CI  CO |
+|   BI   |   CI   |   BI   |   AI   |
+---------------------------------------
+|   BO   |   CO   |   BO   |   AO   |
+| BO  PI | PO  AI | AO  CI | CO  PI |
+|   AI   |   AI   |   AI   |   CI   |
+---------------------------------------
+---------------------------------------
+|   PI   |   AI   |   BO   |   AO   |
+| BI  AO | AI  PO | PI  CO | CI  AO |
+|   PO   |   CO   |   BI   |   BI   |
+---------------------------------------
+|   PI   |   CI   |   BO   |   BO   |
+| CI  PO | PI  CO | CI  CO | CI  BO |
+|   CO   |   AO   |   PI   |   PI   |
+---------------------------------------
+|   CI   |   AI   |   PO   |   PO   |
+| AI  CO | CI  AO | AI  BO | BI  CO |
+|   AO   |   PO   |   BI   |   CI   |
+---------------------------------------
+|   AI   |   PI   |   BO   |   CO   |
+| CO  BI | BO  AI | AO  CI | CO  AI |
+|   BO   |   BO   |   AI   |   CI   |
+---------------------------------------
+---------------------------------------
+|   BO   |   CO   |   BI   |   CI   |
+| CI  CO | CI  CO | CI  PO | PI  CO |
+|   PI   |   AI   |   CO   |   AO   |
+---------------------------------------
+|   PO   |   AO   |   CI   |   AI   |
+| AI  CO | CI  AO | AI  CO | CI  AO |
+|   AI   |   BI   |   AO   |   BO   |
+---------------------------------------
+|   AO   |   BO   |   AI   |   BI   |
+| PI  PO | PI  CO | CI  AO | AI  BO |
+|   BI   |   BI   |   PO   |   CO   |
+---------------------------------------
+|   BO   |   BO   |   PI   |   CI   |
+| BO  PI | PO  BI | BO  CI | CO  PI |
+|   AI   |   AI   |   BO   |   PO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   CO   |   PI   |   CI   |
+| CI  CO | CI  CO | CI  PO | PI  CO |
+|   PI   |   AI   |   CO   |   AO   |
+---------------------------------------
+|   PO   |   AO   |   CI   |   AI   |
+| AI  CO | CI  AO | AI  CO | CI  AO |
+|   AI   |   BI   |   AO   |   BO   |
+---------------------------------------
+|   AO   |   BO   |   AI   |   BI   |
+| PI  PO | PI  CO | CI  AO | AI  BO |
+|   BI   |   BI   |   PO   |   CO   |
+---------------------------------------
+|   BO   |   BO   |   PI   |   CI   |
+| BO  PI | PO  BI | BO  CI | CO  BI |
+|   AI   |   AI   |   BO   |   PO   |
+---------------------------------------
+---------------------------------------
+|   PI   |   CI   |   BO   |   CI   |
+| CO  CI | CO  PI | PO  BI | BO  AI |
+|   BO   |   PO   |   AI   |   AO   |
+---------------------------------------
+|   BI   |   PI   |   AO   |   AI   |
+| AI  BO | BI  AO | AI  PO | PI  BO |
+|   CO   |   PO   |   CI   |   BO   |
+---------------------------------------
+|   CI   |   PI   |   CO   |   BI   |
+| CO  BI | BO  CI | CO  AI | AO  CI |
+|   PO   |   BO   |   CI   |   AO   |
+---------------------------------------
+|   PI   |   BI   |   CO   |   AI   |
+| AO  CI | CO  PI | PO  AI | AO  CI |
+|   CO   |   BO   |   AI   |   CO   |
+---------------------------------------
+---------------------------------------
+|   CO   |   CO   |   AI   |   BO   |
+| BO  PI | PO  CI | CO  BI | BO  PI |
+|   CI   |   PI   |   BO   |   AI   |
+---------------------------------------
+|   CO   |   PO   |   BI   |   AO   |
+| CI  AO | AI  CO | CI  PO | PI  PO |
+|   AI   |   AI   |   CO   |   BI   |
+---------------------------------------
+|   AO   |   AO   |   CI   |   BO   |
+| CI  AO | AI  PO | PI  CO | CI  BO |
+|   BI   |   CI   |   AO   |   PI   |
+---------------------------------------
+|   BO   |   CO   |   AI   |   PO   |
+| PI  CO | CI  CO | CI  AO | AI  BO |
+|   BI   |   AI   |   BO   |   BI   |
+---------------------------------------
+---------------------------------------
+|   CO   |   AI   |   CI   |   BI   |
+| BO  AI | AO  CI | CO  PI | PO  PI |
+|   BI   |   CO   |   PO   |   AO   |
+---------------------------------------
+|   BO   |   CI   |   PI   |   AI   |
+| BO  PI | PO  AI | AO  CI | CO  AI |
+|   AI   |   AO   |   CO   |   PO   |
+---------------------------------------
+|   AO   |   AI   |   CI   |   PI   |
+| AI  BO | BI  PO | PI  BO | BI  BO |
+|   CI   |   BO   |   CO   |   CO   |
+---------------------------------------
+|   CO   |   BI   |   CI   |   CI   |
+| CI  CO | CI  PO | PI  BO | BI  AO |
+|   AI   |   CO   |   BO   |   AO   |
+---------------------------------------
+---------------------------------------
+|   CO   |   AO   |   PI   |   CO   |
+| BO  AI | AO  BI | BO  CI | CO  AI |
+|   BI   |   CI   |   BO   |   CI   |
+---------------------------------------
+|   BO   |   CO   |   BI   |   CO   |
+| BO  PI | PO  CI | CO  PI | PO  CI |
+|   AI   |   PI   |   BO   |   BI   |
+---------------------------------------
+|   AO   |   PO   |   BI   |   BO   |
+| CO  AI | AO  BI | BO  AI | AO  CI |
+|   CI   |   PI   |   PO   |   AI   |
+---------------------------------------
+|   CO   |   PO   |   PI   |   AO   |
+| PO  AI | AO  CI | CO  CI | CO  PI |
+|   AI   |   AI   |   BO   |   CI   |
+---------------------------------------
+---------------------------------------
+|   PI   |   CI   |   CI   |   BO   |
+| BI  BO | BI  AO | AI  CO | CI  CO |
+|   CO   |   AO   |   AO   |   PI   |
+---------------------------------------
+|   CI   |   AI   |   AI   |   PO   |
+| AI  CO | CI  AO | AI  PO | PI  CO |
+|   CO   |   PO   |   CO   |   CI   |
+---------------------------------------
+|   CI   |   PI   |   CI   |   CO   |
+| BO  AI | AO  CI | CO  BI | BO  AI |
+|   AO   |   CO   |   PO   |   BI   |
+---------------------------------------
+|   AI   |   CI   |   PI   |   BO   |
+| BI  PO | PI  BO | BI  AO | AI  BO |
+|   BO   |   BO   |   PO   |   PI   |
+---------------------------------------
+---------------------------------------
+|   PI   |   CI   |   CI   |   BO   |
+| BI  BO | BI  AO | AI  CO | CI  BO |
+|   CO   |   AO   |   AO   |   PI   |
+---------------------------------------
+|   CI   |   AI   |   AI   |   PO   |
+| AI  CO | CI  AO | AI  PO | PI  CO |
+|   CO   |   PO   |   CO   |   CI   |
+---------------------------------------
+|   CI   |   PI   |   CI   |   CO   |
+| BO  AI | AO  CI | CO  BI | BO  AI |
+|   AO   |   CO   |   PO   |   BI   |
+---------------------------------------
+|   AI   |   CI   |   PI   |   BO   |
+| BI  PO | PI  BO | BI  AO | AI  BO |
+|   BO   |   CO   |   PO   |   PI   |
+---------------------------------------
+---------------------------------------
+|   CO   |   CO   |   BI   |   CO   |
+| BO  BI | BO  PI | PO  PI | PO  CI |
+|   PI   |   CI   |   AO   |   BI   |
+---------------------------------------
+|   PO   |   CO   |   AI   |   BO   |
+| PI  CO | CI  CO | CI  AO | AI  BO |
+|   CI   |   AI   |   BO   |   PI   |
+---------------------------------------
+|   CO   |   AO   |   BI   |   PO   |
+| BO  AI | AO  BI | BO  AI | AO  CI |
+|   BI   |   CI   |   PO   |   AI   |
+---------------------------------------
+|   BO   |   CO   |   PI   |   AO   |
+| BO  PI | PO  AI | AO  CI | CO  AI |
+|   CI   |   AI   |   CO   |   CI   |
+---------------------------------------
+---------------------------------------
+|   BO   |   BO   |   PI   |   BO   |
+| CI  BO | BI  CO | CI  PO | PI  CO |
+|   PI   |   AI   |   CO   |   BI   |
+---------------------------------------
+|   PO   |   AO   |   CI   |   BO   |
+| AI  CO | CI  AO | AI  CO | CI  CO |
+|   AI   |   BI   |   CO   |   PI   |
+---------------------------------------
+|   AO   |   BO   |   CI   |   PO   |
+| CO  PI | PO  BI | BO  AI | AO  BI |
+|   CI   |   AI   |   AO   |   PI   |
+---------------------------------------
+|   CO   |   AO   |   AI   |   PO   |
+| CI  AO | AI  PO | PI  BO | BI  CO |
+|   AI   |   CI   |   BO   |   CI   |
+---------------------------------------
+---------------------------------------
+|   PI   |   AI   |   AI   |   AI   |
+| BO  CI | CO  CI | CO  AI | AO  CI |
+|   BO   |   CO   |   PO   |   CO   |
+---------------------------------------
+|   BI   |   CI   |   PI   |   CI   |
+| CO  PI | PO  AI | AO  CI | CO  PI |
+|   BO   |   AO   |   CO   |   PO   |
+---------------------------------------
+|   BI   |   AI   |   CI   |   PI   |
+| AI  BO | BI  PO | PI  BO | BI  AO |
+|   CO   |   BO   |   CO   |   PO   |
+---------------------------------------
+|   CI   |   BI   |   CI   |   PI   |
+| BO  AI | AO  CI | CO  BI | BO  AI |
+|   AO   |   AO   |   PO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   CO   |   CO   |   PI   |
+| BO  PI | PO  CI | CO  AI | AO  CI |
+|   CI   |   BI   |   CI   |   CO   |
+---------------------------------------
+|   CO   |   BO   |   CO   |   CI   |
+| BO  PI | PO  BI | BO  BI | BO  AI |
+|   CI   |   AI   |   PI   |   AO   |
+---------------------------------------
+|   CO   |   AO   |   PO   |   AI   |
+| PO  CI | CO  AI | AO  CI | CO  AI |
+|   PI   |   CI   |   AI   |   PO   |
+---------------------------------------
+|   PO   |   CO   |   AO   |   PI   |
+| AO  BI | BO  AI | AO  BI | BO  AI |
+|   PI   |   BI   |   CI   |   BO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   CO   |   AI   |   BO   |
+| BO  PI | PO  CI | CO  BI | BO  PI |
+|   CI   |   PI   |   BO   |   AI   |
+---------------------------------------
+|   CO   |   PO   |   BI   |   AO   |
+| CI  AO | AI  CO | CI  PO | PI  PO |
+|   AI   |   AI   |   CO   |   BI   |
+---------------------------------------
+|   AO   |   AO   |   CI   |   BO   |
+| CI  AO | AI  PO | PI  CO | CI  CO |
+|   BI   |   CI   |   AO   |   PI   |
+---------------------------------------
+|   BO   |   CO   |   AI   |   PO   |
+| PI  CO | CI  CO | CI  AO | AI  BO |
+|   BI   |   AI   |   BO   |   BI   |
+---------------------------------------
+---------------------------------------
+|   BO   |   CI   |   BI   |   PI   |
+| AI  BO | BI  AO | AI  BO | BI  AO |
+|   PI   |   AO   |   CO   |   PO   |
+---------------------------------------
+|   PO   |   AI   |   CI   |   PI   |
+| AI  CO | CI  AO | AI  CO | CI  PO |
+|   AI   |   PO   |   AO   |   CO   |
+---------------------------------------
+|   AO   |   PI   |   AI   |   CI   |
+| AI  BO | BI  BO | BI  PO | PI  BO |
+|   CI   |   CO   |   BO   |   CO   |
+---------------------------------------
+|   CO   |   CI   |   BI   |   CI   |
+| CI  AO | AI  CO | CI  PO | PI  BO |
+|   PI   |   CO   |   CO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   PI   |   AI   |   CI   |
+| AI  BO | BI  AO | AI  PO | PI  BO |
+|   PI   |   PO   |   CO   |   CO   |
+---------------------------------------
+|   PO   |   PI   |   CI   |   CI   |
+| AI  BO | BI  BO | BI  AO | AI  CO |
+|   BI   |   CO   |   AO   |   CO   |
+---------------------------------------
+|   BO   |   CI   |   AI   |   CI   |
+| BO  PI | PO  AI | AO  CI | CO  BI |
+|   CI   |   AO   |   CO   |   PO   |
+---------------------------------------
+|   CO   |   AI   |   CI   |   PI   |
+| PO  CI | CO  BI | BO  AI | AO  CI |
+|   PI   |   BO   |   AO   |   CO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   PI   |   AI   |   CI   |
+| AI  BO | BI  AO | AI  PO | PI  BO |
+|   PI   |   PO   |   CO   |   CO   |
+---------------------------------------
+|   PO   |   PI   |   CI   |   CI   |
+| AI  BO | BI  BO | BI  AO | AI  CO |
+|   BI   |   CO   |   AO   |   CO   |
+---------------------------------------
+|   BO   |   CI   |   AI   |   CI   |
+| BO  PI | PO  AI | AO  CI | CO  PI |
+|   CI   |   AO   |   CO   |   PO   |
+---------------------------------------
+|   CO   |   AI   |   CI   |   PI   |
+| PO  CI | CO  BI | BO  AI | AO  CI |
+|   BI   |   BO   |   AO   |   CO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   BO   |   CO   |   PO   |
+| AI  BO | BI  CO | CI  AO | AI  CO |
+|   PI   |   AI   |   AI   |   AI   |
+---------------------------------------
+|   PO   |   AO   |   AO   |   AO   |
+| PI  CO | CI  AO | AI  PO | PI  PO |
+|   CI   |   BI   |   CI   |   BI   |
+---------------------------------------
+|   CO   |   BO   |   CO   |   BO   |
+| BO  PI | PO  BI | BO  BI | BO  PI |
+|   CI   |   AI   |   PI   |   CI   |
+---------------------------------------
+|   CO   |   AO   |   PO   |   CO   |
+| CI  AO | AI  BO | BI  CO | CI  CO |
+|   PI   |   CI   |   CI   |   AI   |
+---------------------------------------
+---------------------------------------
+|   BO   |   BO   |   CO   |   AI   |
+| AI  BO | BI  CO | CI  AO | AI  PO |
+|   PI   |   AI   |   AI   |   CO   |
+---------------------------------------
+|   PO   |   AO   |   AO   |   CI   |
+| PI  CO | CI  AO | AI  PO | PI  CO |
+|   CI   |   BI   |   CI   |   AO   |
+---------------------------------------
+|   CO   |   BO   |   CO   |   AI   |
+| BO  BI | BO  PI | PO  CI | CO  CI |
+|   PI   |   CI   |   BI   |   CO   |
+---------------------------------------
+|   PO   |   CO   |   BO   |   CI   |
+| AO  BI | BO  PI | PO  BI | BO  AI |
+|   PI   |   CI   |   AI   |   AO   |
+---------------------------------------
+---------------------------------------
+|   BO   |   PO   |   AO   |   AO   |
+| AI  BO | BI  CO | CI  AO | AI  BO |
+|   PI   |   CI   |   BI   |   CI   |
+---------------------------------------
+|   PO   |   CO   |   BO   |   CO   |
+| AO  BI | BO  PI | PO  BI | BO  AI |
+|   PI   |   CI   |   AI   |   BI   |
+---------------------------------------
+|   PO   |   CO   |   AO   |   BO   |
+| PI  CO | CI  AO | AI  PO | PI  CO |
+|   CI   |   PI   |   CI   |   BI   |
+---------------------------------------
+|   CO   |   PO   |   CO   |   BO   |
+| CI  AO | AI  CO | CI  CO | CI  BO |
+|   AI   |   AI   |   AI   |   PI   |
+---------------------------------------
+---------------------------------------
+|   PI   |   PO   |   CO   |   BO   |
+| BO  AI | AO  BI | BO  PI | PO  BI |
+|   BO   |   PI   |   CI   |   AI   |
+---------------------------------------
+|   BI   |   PO   |   CO   |   AO   |
+| AI  BO | BI  CO | CI  AO | AI  BO |
+|   CO   |   CI   |   PI   |   CI   |
+---------------------------------------
+|   CI   |   CO   |   PO   |   CO   |
+| CO  PI | PO  AI | AO  CI | CO  AI |
+|   PO   |   AI   |   AI   |   CI   |
+---------------------------------------
+|   PI   |   AO   |   AO   |   CO   |
+| BO  CI | CO  AI | AO  BI | BO  BI |
+|   BO   |   CI   |   CI   |   PI   |
+---------------------------------------
+---------------------------------------
+|   PI   |   PO   |   BO   |   BO   |
+| BO  AI | AO  BI | BO  PI | PO  BI |
+|   BO   |   PI   |   CI   |   AI   |
+---------------------------------------
+|   BI   |   PO   |   CO   |   AO   |
+| AI  BO | BI  CO | CI  AO | AI  BO |
+|   CO   |   CI   |   PI   |   CI   |
+---------------------------------------
+|   CI   |   CO   |   PO   |   CO   |
+| CO  PI | PO  AI | AO  CI | CO  AI |
+|   PO   |   AI   |   AI   |   CI   |
+---------------------------------------
+|   PI   |   AO   |   AO   |   CO   |
+| CO  CI | CO  AI | AO  BI | BO  BI |
+|   BO   |   CI   |   CI   |   PI   |
+---------------------------------------
+---------------------------------------
+|   PO   |   BO   |   AI   |   AI   |
+| BI  CO | CI  BO | BI  PO | PI  BO |
+|   CI   |   PI   |   BO   |   BO   |
+---------------------------------------
+|   CO   |   PO   |   BI   |   BI   |
+| BO  AI | AO  CI | CO  PI | PO  PI |
+|   BI   |   AI   |   BO   |   AO   |
+---------------------------------------
+|   BO   |   AO   |   BI   |   AI   |
+| AO  CI | CO  AI | AO  CI | CO  AI |
+|   AI   |   CI   |   AO   |   PO   |
+---------------------------------------
+|   AO   |   CO   |   AI   |   PI   |
+| CO  PI | PO  CI | CO  CI | CO  CI |
+|   CI   |   PI   |   CO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   CI   |   BO   |   CI   |   AI   |
+| CO  BI | BO  PI | PO  AI | AO  CI |
+|   PO   |   AI   |   AO   |   CO   |
+---------------------------------------
+|   PI   |   AO   |   AI   |   CI   |
+| BI  AO | AI  BO | BI  PO | PI  CO |
+|   PO   |   CI   |   BO   |   AO   |
+---------------------------------------
+|   PI   |   CO   |   BI   |   AI   |
+| CO  CI | CO  AI | AO  CI | CO  AI |
+|   BO   |   CI   |   AO   |   PO   |
+---------------------------------------
+|   BI   |   CO   |   AI   |   PI   |
+| CO  PI | PO  CI | CO  BI | BO  CI |
+|   BO   |   PI   |   BO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   PO   |   BO   |   AI   |   AI   |
+| PI  CO | CI  BO | BI  PO | PI  BO |
+|   CI   |   PI   |   BO   |   BO   |
+---------------------------------------
+|   CO   |   PO   |   BI   |   BI   |
+| BO  AI | AO  CI | CO  PI | PO  PI |
+|   BI   |   AI   |   BO   |   AO   |
+---------------------------------------
+|   BO   |   AO   |   BI   |   AI   |
+| AO  CI | CO  AI | AO  CI | CO  AI |
+|   AI   |   CI   |   AO   |   PO   |
+---------------------------------------
+|   AO   |   CO   |   AI   |   PI   |
+| CO  PI | PO  CI | CO  CI | CO  CI |
+|   CI   |   BI   |   CO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   PO   |   CO   |   CI   |   AI   |
+| AI  CO | CI  AO | AI  CO | CI  AO |
+|   AI   |   PI   |   CO   |   BO   |
+---------------------------------------
+|   AO   |   PO   |   CI   |   BI   |
+| CO  AI | AO  CI | CO  BI | BO  AI |
+|   CI   |   AI   |   PO   |   PO   |
+---------------------------------------
+|   CO   |   AO   |   PI   |   PI   |
+| BO  AI | AO  BI | BO  CI | CO  CI |
+|   BI   |   CI   |   BO   |   BO   |
+---------------------------------------
+|   BO   |   CO   |   BI   |   BI   |
+| BO  PI | PO  CI | CO  PI | PO  PI |
+|   AI   |   PI   |   BO   |   AO   |
+---------------------------------------
+---------------------------------------
+|   PO   |   CO   |   BO   |   BO   |
+| AI  CO | CI  AO | AI  BO | BI  CO |
+|   AI   |   AI   |   PI   |   AI   |
+---------------------------------------
+|   AO   |   AO   |   PO   |   AO   |
+| AI  PO | PI  PO | PI  CO | CI  AO |
+|   CI   |   BI   |   CI   |   BI   |
+---------------------------------------
+|   CO   |   BO   |   CO   |   BO   |
+| BO  PI | PO  BI | BO  BI | BO  PI |
+|   CI   |   AI   |   PI   |   CI   |
+---------------------------------------
+|   CO   |   AO   |   PO   |   CO   |
+| CI  AO | AI  BO | BI  CO | CI  CO |
+|   PI   |   CI   |   CI   |   AI   |
+---------------------------------------
+---------------------------------------
+|   CO   |   PO   |   PI   |   CO   |
+| PO  AI | AO  BI | BO  CI | CO  AI |
+|   AI   |   PI   |   BO   |   CI   |
+---------------------------------------
+|   AO   |   PO   |   BI   |   CO   |
+| CO  AI | AO  CI | CO  PI | PO  CI |
+|   CI   |   AI   |   BO   |   BI   |
+---------------------------------------
+|   CO   |   AO   |   BI   |   BO   |
+| BO  AI | AO  BI | BO  AI | AO  CI |
+|   BI   |   CI   |   PO   |   AI   |
+---------------------------------------
+|   BO   |   CO   |   PI   |   AO   |
+| BO  PI | PO  CI | CO  CI | CO  PI |
+|   AI   |   PI   |   BO   |   CI   |
+---------------------------------------
+---------------------------------------
+|   BI   |   BO   |   AI   |   BI   |
+| BO  AI | AO  CI | CO  CI | CO  PI |
+|   PO   |   AI   |   CO   |   BO   |
+---------------------------------------
+|   PI   |   AO   |   CI   |   BI   |
+| CO  CI | CO  PI | PO  AI | AO  CI |
+|   BO   |   CI   |   AO   |   AO   |
+---------------------------------------
+|   BI   |   CO   |   AI   |   AI   |
+| PO  PI | PO  CI | CO  AI | AO  CI |
+|   AO   |   BI   |   PO   |   CO   |
+---------------------------------------
+|   AI   |   BO   |   PI   |   CI   |
+| PI  BO | BI  CO | CI  PO | PI  BO |
+|   BO   |   AI   |   CO   |   BO   |
+---------------------------------------
+---------------------------------------
+|   BI   |   BO   |   AI   |   BI   |
+| BO  AI | AO  CI | CO  CI | CO  PI |
+|   PO   |   AI   |   CO   |   BO   |
+---------------------------------------
+|   PI   |   AO   |   CI   |   BI   |
+| BO  CI | CO  PI | PO  AI | AO  CI |
+|   BO   |   CI   |   AO   |   AO   |
+---------------------------------------
+|   BI   |   CO   |   AI   |   AI   |
+| PO  PI | PO  CI | CO  AI | AO  CI |
+|   AO   |   BI   |   PO   |   CO   |
+---------------------------------------
+|   AI   |   BO   |   PI   |   CI   |
+| PI  BO | BI  CO | CI  PO | PI  BO |
+|   BO   |   AI   |   CO   |   CO   |
+---------------------------------------
